@@ -1,15 +1,7 @@
 # Vlosophy
-A programmable flow sheet
-科学和工程计算大多为过程计算，所谓过程计算，就是一个公式接着一个公式，一个流程接着一个流程，大多可以构成类似下图所示的流程图：
 
- 
-我们将这个流程图解构，将矩形和菱形代表的执行过程称之为执行模块，将带箭头的直线称之为流程通道，Vlosophy正是基于此架构开发。
- 
-在Vlosophy中，将执行模块演化为为Instrument，将流程通道演化为Channel，以适应各种不同的计算场景。故而Vlosopy中主要有两个元素，能够执行功能的是Instrument，执行数据传递的是Channel，Instrument和Channel共同构成了Vlosophy的应用机能。
- 
-我们把Vlosophy定义为过程计算软件，能够把流程化的计算，全部以视觉方式做出来并达到计算的成果。化工流程模拟也是过程计算的一种，过程设备（比如塔器、机泵、分离器、减压阀等）就相当于执行模块，而管道就相当于流程通道，Vlosophy在后续版本中会计划将化工流程作为主要应用场景之一。
-2、Vlosophy的基本使用
-Vlosophy的界面如下，点击File->Open即可打开已经编辑好的过程计算功能，目前提供了一个案例——气液两相流流型判断计算。
+An open source chemical process simulator using thermo as computing core, based on Qt framework and using Python as scripting.
+
  
 
  
